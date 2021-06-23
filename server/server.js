@@ -4,7 +4,7 @@ const app = express();
 
 const authRouter = require('./routes/auth')
 
-console.log('from mizan')
+console.log('from rajib')
 
 app.use('/api', authRouter)
 

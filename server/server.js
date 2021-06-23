@@ -4,6 +4,8 @@ const app = express();
 
 const authRouter = require('./routes/auth')
 
+console.log('push from arif')
+
 
 app.use('/api', authRouter)
 

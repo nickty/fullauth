@@ -4,6 +4,7 @@ const app = express();
 
 const authRouter = require('./routes/auth')
 
+console.log('from mizan')
 
 app.use('/api', authRouter)
 
